@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+.main_container{
+	border:1px solid;
+	width:1271px;
+	height:400px;
+	margin:50px auto;
+	border-radius:30px;
+	background:radial-gradient(ellipse at bottom,#402853,#111828 50%);
+	color:white;
+	text-align:center;
+	overflow:hidden;
+	
+}
+.sub_container{
+	position:relative;
+	top:72px;
+}
+
+.header_section{
+	padding:20px;
+	line-height:1.5;
+	font-size:18px;
+}
+.button{
+	margin:15px;
+}
+.button input{
+	border:1px solid #ffffff3b;
+	width:338px;
+	height:44px;
+	border-radius:5px;
+	color:white;
+	background-color:#ffffff0d;
+	padding:10px;
+	
+}
+.button button{
+	border:1px solid white;
+	width:87px;
+	height:40px;
+	border-radius:5px;
+	font-weight:bold;
+	margin:0 15px;
+	cursor:pointer;
+}
